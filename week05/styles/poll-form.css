@@ -1,0 +1,157 @@
+:root {
+    --color-primary: #3066BE;
+    --color-secondary: #C3D2D5;
+    --color-accent: #231B1B;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: var(--color-secondary);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid var(--color-accent);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: var(--color-accent);
+}
+
+input {
+    padding: 10px;
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"] {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid var(--color-accent);
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.contact-info{
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-info label{
+    text-align: right;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: end;
+}
+
+
+.input-group-inline{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+.places{
+    text-align: center;
+}
+
+.text-header{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-primary);
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color-primary);
+  }
+
+
+.text-content {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
