@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us page of Rapids Web Site, where you can find information about how to reach us.">
+    <meta name="author" content="Sergio Mondragón">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Londrina+Shadow&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - Rapids Web Site</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="The logo of Rapids Web Site">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info section-padding">
+            <h1>Company Information</h1>
+            <div class="company-info-content">
+                <ul>
+                    <li>
+                        <p class="contact-label">Phone number:</p>
+                        <p>+1 (123) 456-7890</p>
+                    </li>
+                    <li>
+                        <p class="contact-label">Email:</p>
+                        <p>rapids2025@outlook.com</p>
+                    </li>
+                    <li>
+                        <p class="contact-label">Address:</p>
+                        <p>123 Rapids St, Adventure City, CA 90210</p>
+                    </li>
+                </ul>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15852.446072577894!2d-79.79605165!3d-6.6330698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1743808794074!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>            
+        </section>
+        <section class="our-team section-padding">
+            <h2>Our team</h2>
+            <figure>
+                <img src="images/employee-1.webp" alt="a happy woman employee of Rapids">
+                <figcaption>Emma Thompson</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-2.webp" alt="a happy man employee of Rapids">
+                <figcaption>Daniel Carter</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-3.webp" alt="a happy man employee of Rapids">
+                <figcaption>James Wilson</figcaption>
+            </figure>
+        </section>
+        <section class="contact-us section-padding">
+            <h2>Contact us</h2>
+            <form >
+                <fieldset>
+                    <legend >Contact Information</legend>
+                    <div class="contact-info">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="contact-info">
+                        <label for="usermail">Email:</label>
+                        <input type="email" id="usermail" name="usermail" placeholder="Email">
+                    </div>                
+                </fieldset>
+
+                <fieldset class="message-details">
+                    <legend>Message Details</legend>
+                    <div class="input-group-inline">
+                        <p>Purpose of the message:</p>
+                        <label for="general-inquiry">
+                            <input type="radio" name="purpose" id="general-inquiry" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                        <label for="reservation-question">
+                            <input type="radio" name="purpose" id="reservation-question" value="Reservation Question">
+                            Reservation Question
+                        </label>
+                        <label for="website-suggestion">
+                            <input type="radio" name="purpose" id="website-suggestion" value="Website Suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>                    
+                    <div class="message">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" placeholder="A message for us." rows="5" cols="30">                           
+                        </textarea>
+                    </div>           
+                    <div class="subscription">
+                        <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" name="subscription" id="subscription">
+                    </div>
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 🚣‍♀️ RAPIDS 🚣‍♀️ Sergio Mondragón </p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/">
+                <img src="images/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://x.com/">
+                <img src="images/icons/twitter.svg" alt="X">
+            </a>
+            <a href="">
+                <img src="images/icons/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+        <div class="mockup-link">
+            <a href="https://app.moqups.com/fXLFJywikgw0oL1HZLO16bLVTVIuCCI9/view/page/ad64222d5" target="_blank"> Mockup link </a>        
+        </div>
+        
+    </footer>
+</body>
+</html>

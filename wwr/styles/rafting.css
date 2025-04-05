@@ -42,6 +42,12 @@ h2 {
     font-size: 50px;
 }
 
+/* Paddings */
+
+.section-padding {
+    padding: 3rem 1rem;
+}
+
 /* Header */
 
 header {
@@ -124,13 +130,16 @@ main {
 .hero article p {
     color: black;
 }
+
 /* History section */
+
 .history{
  padding: 3rem 1rem;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  column-gap: 1.5rem;
 }
+
 .history h2 {
     grid-column: 1 / -1;
     text-align: center;
@@ -181,6 +190,13 @@ footer p{
     grid-column: 2/3;    
 }
 
+.mockup-link{
+    grid-column: 2/ 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sociallinks {
     display: flex;
     justify-content: center;
@@ -199,6 +215,204 @@ footer p{
 .sociallinks a img {
     width: 25px;
 }
+
+/* Contact us section */
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.company-info h1 {
+    margin-bottom: 4rem;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-info ul li {
+    margin-bottom: 1rem;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.company-info ul li p {
+    text-align: end;
+    font-size: 20px;
+}
+
+.contact-label{
+    font-weight: 700;
+}
+
+.company-info-content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Our team section */
+
+.our-team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+}
+
+.our-team h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.our-team figure {
+    text-align: center;
+}
+
+.our-team figure img {
+    width: 320px;
+}
+
+/* Contact us - section form */
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 4rem;
+}
+
+.contact-us form {
+    width: 50%;
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white;
+}
+
+.contact-info{
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-info label{
+    text-align: right;
+}
+
+.contact-us fieldset {
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-us button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+.contact-us button:hover {
+    background-color: var(--accent2-color);
+}
+
+input {
+    padding: 10px;
+    border: 2px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"] {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    accent-color: var(--accent2-color);
+}
+
+
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.message-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group-inline{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 1rem;
+}
+
+.input-group-inline p{ 
+    color: var(--accent1-color);
+    margin-bottom: 1rem;
+    font-size: 17px;
+    grid-column: 1 / -1;
+}
+
+.input-group-inline label{
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.subscription{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
 
 /* Class selectors for google fonts */
 
