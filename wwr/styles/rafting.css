@@ -258,6 +258,10 @@ footer p{
     gap: 2rem;
 }
 
+.map iframe{
+    border: 0;
+}
+
 /* Our team section */
 
 .our-team{
