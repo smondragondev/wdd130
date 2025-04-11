@@ -97,7 +97,7 @@ main {
 
 .hero h1 {
     position: absolute;
-    top: 5%;
+    top: 0%;
     background-color: var(--accent1-color);
     display: block;
     width: 100%;
@@ -293,18 +293,18 @@ footer p{
 
 /* Contact us - section form */
 
-.contact-us{
+.form-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contact-us h2 {
+.form-section h2 {
     margin-bottom: 4rem;
 }
 
-.contact-us form {
+.form-section form {
     width: 50%;
     background-color: var(--primary-color);
     padding: 20px;
@@ -323,14 +323,14 @@ footer p{
     text-align: right;
 }
 
-.contact-us fieldset {
+.form-section fieldset {
     border: 2px solid var(--accent1-color);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.contact-us button {
+.form-section button {
     background-color: var(--secondary-color);
     color: white;
     border: none;
@@ -342,7 +342,7 @@ footer p{
     font-size: 25px;
 }
 
-.contact-us button:hover {
+.form-section button:hover {
     background-color: var(--accent2-color);
 }
 
@@ -424,6 +424,131 @@ textarea {
     justify-content: center;
 }
 
+/* Home */
+.call-button{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;    
+    font-size: 35px;    
+    text-decoration: none;
+}
+
+.call-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.offerings{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 4rem;
+
+}
+.offerings h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.offerings figure {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.offerings figure img {
+    width: 400px;
+}
+
+/* Trip */
+
+.trips{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 4rem;
+    margin-top: 5rem;
+
+}
+.trips h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.trips figure {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.trips figure img {
+    width: 400px;
+}
+
+.trip-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+.trips-availables{
+ display: flex;
+ flex-direction: column;
+ gap: 4rem;
+ margin-bottom: 10px;
+ padding: 20px;
+ height: 100vh;
+}
+
+.trips-availables h2 {
+    text-align: center;
+}
+
+.trips-availables p {
+    margin: 0 10rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border: 3px solid var(--primary-color);
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+}
+
+td:nth-child(odd) {
+    background-color: var(--accent1-color);
+}
+td:nth-child(even) {
+    background-color: var(--accent2-color);
+}
+td:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+td:hover a {
+    color: white;
+}
 
 /* Class selectors for google fonts */
 
