@@ -430,7 +430,7 @@ textarea {
     bottom: 20%;
     right: 5%;
     background-color: var(--accent2-color);
-    color: white;
+    color: var(--secondary-color);
     border: none;
     padding: 10px 50px;
     border-radius: 5px;
@@ -441,6 +441,7 @@ textarea {
 
 .call-button:hover {
     background-color: var(--secondary-color);
+    color: white;
 }
 
 .offerings{
